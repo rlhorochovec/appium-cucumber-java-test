@@ -7,7 +7,7 @@ import io.cucumber.java.pt.E;
 import io.cucumber.java.pt.Então;
 import io.cucumber.java.pt.Quando;
 
-public class CadastraCavalerioSteps {
+public class CadastraCavaleiroSteps {
 
     FormScreen form = new FormScreen();
     ListScreen list = new ListScreen();
