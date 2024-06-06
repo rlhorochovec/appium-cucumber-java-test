@@ -3,16 +3,19 @@ Funcionalidade: Cadastrar Cavaleiros do Zodíaco
   Eu como usuário do app
   Desejo cadastrar cavaleiros do zodíaco
 
-  @cvz
-  Cenário: Cadastrar Cavaleiro de Dragão
+  @bronze
+  Esquema do Cenário: Cadastrar Cavaleiros de Bronze
     Dado que o usuário clicou em novo
-    Quando inserir o nome do cavaleiro "Shiryu" e sua armadura de "Dragão"
+    Quando inserir o nome do cavaleiro "<nome>" e sua armadura de "<armadura>"
     E clicar em Salvar
-    Então o aplicativo apresentará o cavaleiro "Shiryu" de "Dragão" cadastrado
+    Então o aplicativo apresentará o cavaleiro "<nome>" de "<armadura>" cadastrado
+    Exemplos:
+      | nome   | armadura |
+      | Shiryu | Dragão   |
 
-  @cvz
-  Cenário: Cadastrar Cavaleiro de Pégasos
+  @failed
+  Cenário: Cadastrar Cavaleiros de Bronze
     Dado que o usuário clicou em novo
     Quando inserir o nome do cavaleiro "Seiya" e sua armadura de "Pégasos"
     E clicar em Salvar
-    Então o aplicativo apresentará o cavaleiro "Seiya" de "Pégasos" cadastrado
+    Então o aplicativo apresentará o cavaleiro "Ikki" de "Fênix" cadastrado
